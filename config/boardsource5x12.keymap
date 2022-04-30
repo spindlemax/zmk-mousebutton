@@ -24,11 +24,11 @@
 
 
             bindings = <
-                &mkp RCLK  &kp LC(V)  &kp LCTRL    &kp N3          &kp N4     &kp N5      &kp N6             &kp N7      &bt BT_SEL 0   &kp N9      &kp N0      &kp BSPC
-                &mkp LCLK  &kp LC(X)  &kp ESC      &kp F4          &kp F5     &kp F6      &kp F7             &kp F8      &bt BT_CLR     &kp F10     &kp F11     &kp F12
-                &mkp RCLK  &kp LC(Z)  &kp F1       &kp C           &kp D      &kp E       &kp F              &kp G       &bt BT_SEL 1   &kp I       &kp J       &kp K
-                &mkp LCLK  &kp LC(C)  &kp F2       &mwh SCROLL_UP  &kp O      &kp P       &kp Q              &kp R       &bt BT_SEL 2   &kp T       &kp U       &kp V
-                &mkp MCLK  &kp LC(Y)  &kp LS(F10)  &kp Z           &kp LS(1)  &kp LS(2)   &mwh SCROLL_DOWN   &kp LS(4)   &bt BT_SEL 3   &kp LS(6)   &kp LS(7)   &kp LS(8) 
+                &mkp RCLK  &kp LC(V)  &kp LCTRL    &mwh SCROLL_DOWN  &kp N4     &kp N5      &kp N6             &kp N7      &bt BT_SEL 0   &kp N9      &kp N0      &kp BSPC
+                &mkp LCLK  &kp LC(X)  &kp ESC      &mkp MCLK            &kp F5     &kp F6      &kp F7             &kp F8      &bt BT_CLR     &kp F10     &kp F11     &kp F12
+                &mkp RCLK  &kp LC(Z)  &kp F1       &mkp LCLK             &kp D      &kp E       &kp F              &kp G       &bt BT_SEL 1   &kp I       &kp J       &kp K
+                &mkp LCLK  &kp LC(C)  &kp F2       &mwh SCROLL_UP    &kp O      &kp P       &kp Q              &kp R       &bt BT_SEL 2   &kp T       &kp U       &kp V
+                &mkp MCLK  &kp LC(Y)  &kp LS(F10)  &mkp RCLK             &kp LS(1)  &kp LS(2)   &mwh SCROLL_DOWN   &kp LS(4)   &bt BT_SEL 3   &kp LS(6)   &kp LS(7)   &kp LS(8) 
             >;
         };
     };
