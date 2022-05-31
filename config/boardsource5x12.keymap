@@ -30,8 +30,8 @@
                 &kp ESC        &kp N1       &to 1                &mkp RCLK   &kp N4     &kp N5      &kp N6      &kp N7       &mwh SCROLL_DOWN  &kp N9      &kp N0      &kp BSPC
                 &kp TAB        &kp MCLK     &mmv MOVE_DOWN       &kp E       &kp R      &kp T       &kp Y       &kp U        &kp LC(C)         &kp O       &kp P       &kp BSLH
                 &mkp LCLK      &kp A        &mmv MOVE_RIGHT      &kp D       &kp F      &kp G       &kp H       &kp J        &mwh SCROLL_UP    &kp L       &kp SEMI    &kp SQT
-                &kp LCTRL      &kp Z        &mmv MOVE_UP         &kp C       &kp V      &kp B       &kp N       &lp M        &kp ESC           &kp DOT     &kp FSLH    &kp LS(Y)
-                &kp LS(Q)      &kp LS(W)    &mmv MOVE_LEFT       &kp LGUI    &kp LS(E)  &kp SPACE   &kp LS(R)   &kp LS(T)    &kp LC(V)         &kp DOWN    &kp UP      &kp RIGHT  
+                &kp LCTRL      &kp Z        &mmv MOVE_UP         &to 0       &kp V      &kp B       &kp N       &lp M        &kp ESC           &kp DOT     &kp FSLH    &kp LS(Y)
+                &kp LS(Q)      &kp LS(W)    &mmv MOVE_LEFT       &to 1       &kp LS(E)  &kp SPACE   &kp LS(R)   &kp LS(T)    &kp LC(V)         &kp DOWN    &kp UP      &kp RIGHT  
             >;
         };
         
@@ -40,8 +40,8 @@
                 &kp ESC        &kp N1        &to 0             &bt BT_SEL 2   &kp N4     &kp N5      &kp N6      &kp N7      &none         &kp N9      &kp N0      &kp BSPC
                 &kp TAB        &bt BT_SEL 1  &none             &kp E          &kp R      &kp T       &kp Y       &kp U       &none         &kp O       &kp P       &kp BSLH
                 &bt BT_SEL 0   &kp A         &none             &kp D          &kp F      &kp G       &kp H       &kp J       &none         &kp L       &kp SEMI    &kp SQT
-                &kp LCTRL      &kp Z         &none             &kp C          &kp V      &kp B       &kp N       &kp M       &bt BT_CLR    &kp DOT     &kp FSLH    &kp LS(Y)
-                &kp LS(Q)      &kp LS(W)     &none             &kp LGUI       &kp LS(E)  &kp SPACE   &kp LS(R)   &kp LS(T)   &none      &kp DOWN    &kp UP      &kp RIGHT  
+                &kp LCTRL      &kp Z         &none             &to 0          &kp V      &kp B       &kp N       &kp M       &bt BT_CLR    &kp DOT     &kp FSLH    &kp LS(Y)
+                &kp LS(Q)      &kp LS(W)     &none             &to 1          &kp LS(E)  &kp SPACE   &kp LS(R)   &kp LS(T)   &none      &kp DOWN    &kp UP      &kp RIGHT  
             >;
         };
     };
